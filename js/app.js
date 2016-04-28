@@ -2,6 +2,7 @@ $('.ryu').on('mousedown', function() {
 	$('.ryu-ready').hide();
 	$('.ryu-still').hide();
 	$('.ryu-throwing').show();
+	$('.hadouken').show();
 });
 
 $('.ryu').on('mouseup', function() {
