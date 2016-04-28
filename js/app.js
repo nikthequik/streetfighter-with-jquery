@@ -1,8 +1,17 @@
+$(function() {
 $('.ryu').on('mousedown', function() {
 	$('.ryu-ready').hide();
 	$('.ryu-still').hide();
 	$('.ryu-throwing').show();
 	$('.hadouken').show();
+	$('.hadouken').animate({
+		left: '+=800'
+	}, 800, function() {
+		$('.hadouken').hide().css({
+			left: '-=800'
+		});
+	})
+	
 });
 
 $('.ryu').on('mouseup', function() {
@@ -22,4 +31,4 @@ $('.ryu').on('mouseout', function() {
 	$('.ryu-throwing').hide();
 	$('.ryu-still').show();
 });
-
+});
