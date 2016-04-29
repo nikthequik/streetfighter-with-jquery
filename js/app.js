@@ -17,7 +17,7 @@ $(function() {
 			playHadouken();
 			ryuHide();
 			$('.ryu-throwing').show();
-			$('.nice').show();
+			$('.nice, .x').show();
 			$('.hadouken').finish().show().animate({
 				left: '1220px'
 				}, 800, function() {
@@ -30,6 +30,7 @@ $(function() {
 	});
 
 	$('.ryu').on('mouseup', function() {
+		ryuState = "ryu-ready";
 		ryuHide();
 		$('.ryu-ready').show();
 		ryuTakingAction = "";

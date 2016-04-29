@@ -68,10 +68,18 @@ body {
 }
 
 .nice {
-	font-family:Bangers, sans-serif;
+	font-family: Bangers, sans-serif;
 	text-align: right;
-	margin-top: 4em;
+	margin-top: 2em;
 	margin-right: 5em;
 	font-size: 2.5em;
-	display:none;
+	display: none;
+	float: right;
+}
+
+.x {
+	font-family:Bangers, sans-serif;
+	font-size: 1.8em;
+	margin-top: 13em;
+	display: none;
 }
