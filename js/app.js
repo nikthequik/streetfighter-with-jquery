@@ -71,7 +71,6 @@ $(function() {
 			else if (ryuState === "ryu-throwing") {
 				$('.ryu-throwing').show();
 			}
-
 			else{
 				$('.ryu-ready').show();
 			}
